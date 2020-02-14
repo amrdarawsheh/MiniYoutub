@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Mini-Youtube",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "version": "1.00",
+  "background": {
+    "persistent": false,
+    "scripts": [ "jquery.min.js", "background.js" ]
+  },
+  "browser_action": {
+    "default_icon": "logo.png"
+  }//,
+  //"content_script": { "js": [ "jquery.min.js", "brows.js" ] }
+
+}
